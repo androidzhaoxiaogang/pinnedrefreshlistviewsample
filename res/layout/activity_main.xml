@@ -1,0 +1,14 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <!--
+    The PullToRefreshListView replaces a standard ListView widget.
+    -->
+    <com.android.pinnedrefreshlist.PullListView
+        android:id="@+id/android:list"
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        />
+</LinearLayout>
